@@ -1,7 +1,7 @@
 document.getElementById("welcome").innerText="hello world";
 const places= document.getElementsByClassName("important-places")
 for(const place of places){
-    console.log(place.innerText);
+    // console.log(place.innerText);
 }
 
 const international=document.querySelectorAll("ul")
